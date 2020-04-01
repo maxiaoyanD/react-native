@@ -48,28 +48,28 @@ export default class Home extends Component {
 						<Image 
 							style={{width:40,height:40,marginLeft:20}}
 							source={require('../../assets/pic/repair.jpg')}/>
-						<Text style={{marginLeft:15,fontSize:16,marginRight:250}}>居家维修</Text>
+						<Text style={{marginLeft:15,fontSize:16,marginRight:width*0.53}}>居家维修</Text>
 						<Icon name="right" color="#cecece"/>
 					</View>
 					<View style={styles.list}>
 						<Image 
 							style={{width:40,height:40,marginLeft:20}}
 							source={require('../../assets/pic/flag.jpg')}/>
-						<Text style={{marginLeft:15,fontSize:16,marginRight:250}}>住宿优惠</Text>
+						<Text style={{marginLeft:15,fontSize:16,marginRight:width*0.53}}>住宿优惠</Text>
 						<Icon name="right" color="#cecece"/>
 					</View>
 					<View style={styles.list}>
 						<Image 
 							style={{width:40,height:40,marginLeft:20}}
 							source={require('../../assets/pic/jiesong.jpg')}/>
-						<Text style={{marginLeft:15,fontSize:16,marginRight:250}}>出租接送</Text>
+						<Text style={{marginLeft:15,fontSize:16,marginRight:width*0.53}}>出租接送</Text>
 						<Icon name="right" color="#cecece"/>
 					</View>
 					<View style={styles.list}>
 						<Image 
 							style={{width:40,height:40,marginLeft:20}}
 							source={require('../../assets/pic/gift.jpg')}/>
-						<Text style={{marginLeft:15,fontSize:16,marginRight:250}}>E族活动</Text>
+						<Text style={{marginLeft:15,fontSize:16,marginRight:width*0.53}}>E族活动</Text>
 						<Icon name="right" color="#cecece"/>
 					</View>
 

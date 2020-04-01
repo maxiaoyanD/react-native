@@ -59,7 +59,7 @@ const styles = StyleSheet.create({
     height:0.55*width,
     backgroundColor:'#fff',
     marginLeft:20,
-    marginTop:20,
+    marginTop:20
   },
   tit:{
     fontSize:14,
@@ -69,7 +69,7 @@ const styles = StyleSheet.create({
   },
   price:{
     fontSize:14,
-    marginTop:10,
+    marginTop:5,
     color:'red',
     marginLeft:10,
 
@@ -121,9 +121,9 @@ const LieBiao = () => {
         
         <FlatList 
             data={data}
-          ListFooterComponent={<View style={{height:150,width:width}}></View>}
-          numColumns={2}
-          renderItem={
+            ListFooterComponent={<View style={{height:width*0.65,width:width}}></View>}
+            numColumns={2}
+            renderItem={
             ({item})=>
             <View style={styles.slide}>
               <Image 
